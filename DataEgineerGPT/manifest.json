@@ -1,0 +1,21 @@
+{
+  "manifest_version": 1,
+  "name": "DataEgineerGPT",
+  "version": "1.0",
+  "description": "Useful Chrome plugin for Data Engineering",
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": [
+        "pdf.min.js",
+        "pdf.worker.min.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
