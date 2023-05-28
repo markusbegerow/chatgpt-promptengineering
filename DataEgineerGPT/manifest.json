@@ -1,8 +1,8 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "DataEgineerGPT",
   "version": "1.0",
-  "description": "Useful Chrome plugin for Data Engineering",
+  "description": "Use",
   "permissions": ["activeTab", "scripting"],
   "icons": {
 

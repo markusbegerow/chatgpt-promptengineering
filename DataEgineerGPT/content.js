@@ -35,7 +35,7 @@ button.addEventListener("click", async () => {
   // Create file input element
   const fileInput = document.createElement("input");
   fileInput.type = "file";
-  fileInput.accept = ".txt, .js, .py, .html, .css, .json, .csv";
+  fileInput.accept = ".txt, .sql, .js, .html, .css, .py, .java, .cs, .cpp, .go, .json, .csv, .xml";
   
   // Handle file selection
   fileInput.addEventListener("change", async (event) => {
@@ -154,6 +154,15 @@ const addUpdateVscodeBtn = (codeContainer) => {
           break;
         case "Go":
           extension = ".go";
+          break;
+		case "json":
+          extension = ".json";
+          break;
+		case "csv":
+          extension = ".csv";
+          break;
+		case "xml":
+          extension = ".xml";
           break;
 
         // Add more cases for other languages
