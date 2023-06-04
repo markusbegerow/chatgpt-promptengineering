@@ -24,7 +24,7 @@ progressBar.style.backgroundColor = "blue";
 progress.appendChild(progressBar);
 
 // Find the target element
-const targetElement = document.querySelector(".flex.flex-col.w-full.py-2.flex-grow.md\\:py-3.md\\:pl-4");
+const targetElement = document.querySelector(".flex.flex-col.w-full.flex-grow.md\\:py-4.md\\:pl-4");
 
 // Insert the button and progress element before the target element
 targetElement.parentNode.insertBefore(button, targetElement);
